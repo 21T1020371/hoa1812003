@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div {
+    border: 1px solid #000;
+}
+.header {
+    height: 300px;
+    width: 100%;
+    background-image: url(/images/background01.jpg);
+    background-size: cover;
+    position: relative;
+}
+.DHKH {
+    height: 40px;
+    width: 100%;
+    background-color: #080E0B;
+}
+.image {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    margin-left: 670px;
+    border-radius: 360px 360px 360px 360px;
+}
+
+
+.middle {
+    height: 2000px;
+    width: 100%;
+    background-image: url(/images/1111.png);
+    margin-top: 5px;
+    position: relative;
+}
+.information {
+    width: 70%;
+    height: 600px;
+    margin: auto;
+    margin-top: 200px;
+}
+.thong-tin-1 {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+.thong-tin-1 ul li {
+    line-height: 3.5;
+    list-style: none;
+    color: #808080;
+    font-size: 20px;
+}
+.ket-qua {
+    width: 70%;
+    height: 400px;
+    margin: auto;
+}
+.ket-qua-1 {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+.ket-qua-1 ul li {
+    line-height: 3.5;
+    list-style: none;
+    color: #808080;
+    font-size: 20px;
+}
+.images {
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 150px;
+    display: grid;
+    gap: 3px;
+    grid-template-columns: 300px 300px 300px 300px ;
+    grid-template-rows: 150px 150px 150px;
+}
+
+#images-1 {
+    grid-column:1/2 ;
+    grid-row:1/4 ;
+}
+#images-2 {
+    grid-column:2/4 ;
+    grid-row:1/2;
+}
+#images-3 {
+    grid-column:2/3 ;
+    grid-row:2/3;
+}
+#images-4 {
+    grid-column:3/4 ;
+    grid-row:2/3;
+}
+#images-5 {
+    grid-column:2/3 ;
+    grid-row:3/4;
+}
+#images-6 {
+    grid-column:3/4 ;
+    grid-row:3/4;
+}
+#images-7 {
+    grid-column:4/5 ;
+    grid-row:1/2;
+}
+#images-8 {
+    grid-column:4/5 ;
+    grid-row:2/4;
+}
+
